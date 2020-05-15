@@ -2,12 +2,12 @@
 
 import * as React from "react";
 import * as ReactDOMRe from "reason-react/src/ReactDOMRe.js";
-import * as App$YourProjectName from "./App.bs.js";
+import * as App$ViteReasonReact from "./App.bs.js";
 
 import './index.css'
 ;
 
-ReactDOMRe.renderToElementWithId(React.createElement(App$YourProjectName.make, { }), "root");
+ReactDOMRe.renderToElementWithId(React.createElement(App$ViteReasonReact.make, { }), "root");
 
 export {
   
